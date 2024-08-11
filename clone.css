@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+li{
+    display: inline-block;
+    padding: 19px;
+}
+.main_container{
+    background-image: url(website.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.Heading{
+    color: rgb(236, 171, 86);
+    text-align: center;
+    padding: 30px;
+    font-size: 70px;
+    position: relative;
+    top: 115px;
+    opacity: 0.6;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+.under{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    opacity: 1.0;
+}
+.container{
+    height: 850px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+.box1, .box3{
+    background-color: greenyellow;
+    color: rgb(0, 0, 0);
+    width: 345px;
+    height: 234px;
+    border: 2px solid rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 5px;
+    text-decoration: underline;
+    opacity: 0.6;    
+    
+}
+.box2{
+    opacity: 0.6;
+    background-color: rgb(22, 210, 244);
+    color: black;
+    width: 345px;
+    height:234px;
+    border: 2px solid black;
+    font-size: 18px;
+    padding: 5px;
+    text-decoration: underline;
+}
+.strike{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

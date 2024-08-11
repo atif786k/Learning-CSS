@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning CSS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            border: 5px solid green;
+            background-color: wheat;
+            
+        }
+
+        div{
+            background-color: pink;
+            color: black;
+        }
+
+        #road {
+            background-color: brown;
+        }
+
+        nav,
+        span{
+            color: aqua;
+            background-color: black;
+        }
+
+        .stats {
+            border: 5px solid yellow;
+            color: azure;
+            background-color: orange;
+            background-image: url(atif.jpg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            background-attachment: local;
+        }
+
+        .red {
+            border: 10px solid purple;
+            background-color: red;
+            color: white;
+            height: 1900px;
+            background-image: url(atif.jpg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: bottom center;
+            background-attachment: fixed;
+        }
+
+        .template {
+            color: violet;
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam perferendis adipisci iure?
+    </div>
+    <div id="road">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque blanditiis laborum soluta!
+    </div>
+    <h3>this is heading</h3>
+    <h2>this is heading</h2>
+    <span>this is span</span>
+    <nav>
+        <ol type="I">
+            <li>virat</li>
+            <li>rohit</li>
+        </ol>
+    </nav>
+    <div class="stats">
+        <h1>This is Records of players</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Goals</th>
+                    <th>trophy</th>
+                    <th>UCL</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>815</td>
+                    <td>35</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>500</td>
+                    <td>20</td>
+                    <td>0</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus!</h3>
+        <h3>this is heading</h3>
+    </div>
+    <div class="red">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, dolore!
+    </div>
+    <br> 
+    <div class="template">
+        <h3>This is template.....</h3>
+        <input type="date">choose the date
+        <hr>
+        <h3>Choose your Destiny</h3>
+        <select name="destiny" id="destinyid">
+            <option value="dest0"></option>
+            <option value="dest1">shimla</option>
+            <option value="dest2">nagpur</option>
+            <option value="dest3">manali</option>
+        </select>
+    </div>
+</body>
+
+</html>

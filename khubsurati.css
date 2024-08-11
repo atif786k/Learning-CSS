@@ -1,0 +1,41 @@
+
+ *{
+    margin: 0;
+    padding: 0;
+ }
+nav{
+    background-color: black;
+    color: white;
+}
+li{
+    margin: 20px 10px;
+    display: inline-block;
+    text-decoration: underline;
+    
+}
+.red{
+    display: inline-block;
+    background-color: red;
+    color: black;
+    /* padding: 20px; */
+    width: 50%;
+    height: 85vh;
+}
+.green{
+    display: inline-block;
+    background-color: greenyellow;
+    color: purple;
+    /* padding: 20px; */
+    width: 50%;
+    height: 85vh;
+}
+footer{
+    background-color: rgb(36, 8, 8);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* text-transform: uppercase; */
+}
+
+/* Note:-we don't have to give padding if we are giving width 50-50% because padding takes extra space apart from width */

@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    color: white;
+}
+li:hover{
+    /* background-color: rgb(255, 255, 255);
+    color: black; */
+    font-weight: bolder;
+}
+li{
+    display: inline-block;
+    padding: 10px;
+}
+.container{
+    display: flex;
+}
+.box1{
+    background-color: greenyellow;
+    color: black;
+    height: 40vh;
+    width: 50vw;
+}
+.box2{
+    background-color: blue;
+    color: rgb(237, 237, 237);
+    height: 40vh;
+    width: 50vw;
+}
